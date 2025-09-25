@@ -168,7 +168,6 @@
               </li>
             </ul>
           </div>
-
           <div class="term">
             <h2 class="term-title">웹 관련 용어</h2>
             <div class="term-item">
@@ -181,7 +180,7 @@
             </div>
             <div class="term-item">
               <h3 class="term-subject">웹 접근성이란?</h3>
-              <p class="term-description">모든 사용자가 신체적·환경적 조건에 관계없이 웹 사이트에서 제공하는...</p>
+              <p class="term-description">모든 사용자가 신체적.환경적 조건에 관계없이 웹 사이트에서 제공하는...</p>
               <figure class="term-thumbnail">
                 <img src="./assets/web_a11y.png" alt="" />
                 <figcaption class="sr-only">Web Accessibility</figcaption>
@@ -189,8 +188,18 @@
             </div>
           </div>
         </div>
-
-        <div class="group group2">그룹2</div>
+        <div class="group group2">
+          <div class="search">
+            <h2 class="sr-only">검색</h2>
+            <form action="/" class="search-form" method="post">
+              <div class="form-input">
+                <label for="keyword"><span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>자료검색</label>
+                <input type="search" id="keyword" name="searchKeyword" required placeholder="검색어를 입력하세요." />
+              </div>
+              <button type="submit" class="button button-fill">검색</button>
+            </form>
+          </div>
+        </div>
         <div class="group group3">그룹3</div>
       </main>
       <article class="slogan">슬로건</article>
