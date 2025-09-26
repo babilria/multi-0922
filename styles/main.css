@@ -543,6 +543,10 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+
+      span {
+        margin-right: 6px;
+      }
     }
 
     time {
@@ -557,4 +561,8 @@
       color: rgb(2, 145, 2);
     }
   }
+}
+
+/* 새소식 */
+.news {
 }
