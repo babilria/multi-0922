@@ -33,7 +33,7 @@
 }
 
 .group3 {
-  background-color: lime;
+  /* background-color: lime; */
 }
 
 .slogan {
@@ -599,9 +599,14 @@
     font-weight: 700;
   }
 
+  time {
+    grid-area: date;
+  }
+
   p {
     grid-area: description;
     line-height: 1.5;
+    margin-top: 10px;
   }
 
   figure {
@@ -625,4 +630,9 @@
       color: rgb(2, 67, 2);
     }
   }
+}
+
+/* 인기 사이트 */
+.favorite {
+  background: yellow;
 }
